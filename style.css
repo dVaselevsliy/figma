@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-section-1 {
+  
+}
+
+.header {
+  padding: 10px 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.header__top {
+  height: 35px;
+  top: 10px;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.main__top {
+  background-size: cover;
+  background-position: center;
+  width: 300;
+  height: 60px;
+}
+
+.h1 {
+height: 17px;
+font-weight: 400;
+font-size: 14px;
+color: white;
+}
+
+.h2 {
+  width: 300px;
+  height: 60px;
+  top: 106px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.h3 {
+  Width: 250px;
+  Height: 34px;
+  top: 181px;
+  Left: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 310px;
+  height: 206px;
+  background-color: #E7EDF9;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.h4 {
+  width: 150px;
+  height: 75px;
+  margin-left: 15px;
+  padding-top: 35px;
+  text-align: left;
+}
+
+.button {
+  width: 280px;
+  height: 55px;
+  background-color: #B9A7F5;
+  border-radius: 25px;
+  color: white;
+  margin-top: 1px;
+}
+
+.icon {
+display: block;
+height: 17px;
+width: 20px;
+}
+.icon--colision {
+  background-image: url(icons/coolicon.png);
+  background-size: cover;
+}
+
+.icon--burger {
+  background-image: url(icons/burger.png);
+}
